@@ -1,6 +1,6 @@
 {
   "name": "webpack-ts-load",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -19,5 +19,14 @@
   "dependencies": {
     "@types/webpack": "*",
     "typescript": "*"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "typescript",
+    "typescript-loader",
+    "webpack-ts",
+    "ts-loader",
+    "webpack-plugin",
+    "ts"
+  ]
 }
