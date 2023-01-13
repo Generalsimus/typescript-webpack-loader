@@ -18,10 +18,8 @@ module.exports = {
           {
             loader: "webpack-ts-load",
             options: {
-              name,          // plugin name 
               options,       // ts.CompilerOptions 
               tsConfigPath   // tsConfig file name
-              test,          // file test regexp 
               transforms,    // ts.CustomTransformers
             },
           },
