@@ -1,6 +1,6 @@
 {
-  "name": "typescript-webpack-loader",
-  "version": "0.0.1",
+  "name": "webpack-ts-load",
+  "version": "0.0.2",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
