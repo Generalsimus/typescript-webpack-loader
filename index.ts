@@ -30,6 +30,5 @@ const loader: LoaderDefinitionFunction<Options> = function (content, sourceMap, 
 }
 
 
-
 export * from "./host"
 export default loader
