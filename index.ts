@@ -13,8 +13,8 @@ export interface Options extends HostOptions {
 const loader: LoaderDefinitionFunction<Options> = function (content, sourceMap, additionalData) {
     const host = getHost(this.getOptions());
 
-    const { code, map, diagnostics, emitFiles } = host.emitFileIfChanged(normalizePath(this.resourcePath), content)
-    // console.log("🚀 --> file: index.ts:19 --> normalizePath(this.resourcePath)", normalizePath(this.resourcePath));
+    const { code, map, diagnostics, emitFiles } = host.emitFileIfChanged(normalizePath(this.resourcePath), content);
+
 
     let error: Error | undefined
     if (diagnostics.length !== 0) {
