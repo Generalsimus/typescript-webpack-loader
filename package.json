@@ -1,6 +1,6 @@
 {
   "name": "webpack-ts-load",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Webpack loader for seamless integration between Webpack and Typescript.",
   "main": "./dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Generalsimus/typescript-webpack-loader-.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Generalsimus/typescript-webpack-loader-/issues"
   },
