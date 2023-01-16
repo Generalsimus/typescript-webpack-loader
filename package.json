@@ -1,7 +1,7 @@
 {
   "name": "webpack-ts-load",
-  "version": "0.0.8",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A Webpack loader for seamless integration between Webpack and Typescript.",
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
